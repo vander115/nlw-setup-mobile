@@ -1,6 +1,6 @@
 import { View, Text, ScrollView } from 'react-native';
 import { HabitDay, DAY_SIZE, HabitDayDisabled } from '../components/HabitDay';
-import { Header } from './Header';
+import { Header } from '../components/Header';
 import { generateRangeDatesFromYearStart } from '../utils/generate-range-between-dates';
 
 const weekDays = ['D', 'S', 'T', 'Q', 'Q', 'S', 'S'];
