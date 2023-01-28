@@ -42,7 +42,7 @@ export function New() {
   async function handleCreateNewHabit() {
     try {
       if (!title.trim() || weekDays.length === 0) {
-        Alert.alert(
+        return Alert.alert(
           'Novo Hábito',
           'Informe o título do hábito e escolha os dias de repetição. :|',
         );
